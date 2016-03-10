@@ -1,0 +1,77 @@
+body {
+ margin:0;
+ padding: 0;
+ background-color:rgb(34,34,34);
+}
+
+#container {
+ width: 700px;
+ height: 500px;
+ margin: auto;
+ margin-top:100px;
+ background-color:rgb(174,174,174);
+ border-radius:10px;
+}
+
+#title {
+ width:700px;
+ height:100px;
+ padding-top:40px;
+ text-align:center;
+ font-family:Helvetica,sans-serif;
+ font-size:5em;
+ color:rgb(34,34,34);
+}
+
+#cityState{
+ width:700px;
+ height:100px;
+ text-align:center;
+ font-family:Helvetica,sans-serif;
+ font-size:3em;
+ color:rgb(34,34,34);
+}
+
+#information {
+ width:500px;
+ margin: 0 auto;
+ text-align:center;
+}
+
+#information div {
+ margin-top:10px;
+}
+
+#temp {
+ width:100px;
+ font-size:1.5em;
+ margin:0 auto;
+}
+
+#condition {
+ width:100px;
+ font-size:1.5em;
+ margin:auto;
+}
+
+#c {
+ display:none;
+}
+
+#credits {
+ color:rgb(135,135,135);
+ font-size:.7em;
+ width:700px;
+ margin: 0 auto;
+ text-align:center;
+ margin-top:40px;
+}
+
+#credits a {
+ text-decoration:none;
+ color:rgb(135,135,135);
+}
+
+.icons {
+ display:none;
+}
